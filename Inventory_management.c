@@ -11,7 +11,7 @@
 #include<string.h>
 #include "lcd.h"
 
-#define HIGH 1
+
 #define LOW 0
 #define BTN_PRESSED LOW
 
@@ -30,9 +30,9 @@
 
 
 char msg1[128]="Carton 1 has been used at  ";
-char msg2[512]="Carton 2 has been used at  ";
-char msg3[1024]="Carton 3 has been used at  ";
-char msg[1024]="All Cartons have been used. Item out of stock ";
+char msg2[128]="Carton 2 has been used at  ";
+char msg3[128]="Carton 3 has been used at  ";
+char msg[128]="All Cartons have been used. Item out of stock ";
 
 char* concatenate_string(char *s, char *s1)
 {
